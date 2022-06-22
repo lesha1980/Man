@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{c0c0c036-db0a-43d6-abe4-e68f470f595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f00ec97c-d277-4f42-949d-20e98ac1bc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Man">
+      <UniqueIdentifier>{cb2d1156-4e70-481d-9c37-6796f95e7fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Date">
+      <UniqueIdentifier>{3e587f89-974b-4bad-9e61-e985e82dad58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\enums">
+      <UniqueIdentifier>{48c8cef9-5169-46cf-a478-781b9cf32329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="general.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>libs\Man</Filter>
+    </ClInclude>
+    <ClInclude Include="DateMan.h">
+      <Filter>libs\Date</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumMonth.h">
+      <Filter>libs\enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>libs\Man</Filter>
+    </ClCompile>
+    <ClCompile Include="DateMan.cpp">
+      <Filter>libs\Date</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
